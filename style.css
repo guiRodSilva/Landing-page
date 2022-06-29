@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.logo1{
+    position: absolute;
+    width: 137px;
+    height: 116.38px;
+    left: 75px;
+    top: 46px;
+    background: url(logo.png);
+}
+
+.section1{
+    position: absolute;
+    width: 386px;
+    height: 41px;
+    left: 500px;
+    top: 85px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.section2{
+    position: absolute;
+    width: 245px;
+    height: 41px;
+    left: 920px;
+    top: 85px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.section3{
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    left: 1180px;
+    top: 80px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    background-color: #4AE275;
+    border-radius: 8px;
+    border: none;
+}
+
+.title-box1{
+    position: absolute;
+    width: 403px;
+    height: 76px;
+    left: 95px;
+    top: 299px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 68px;
+
+    color: #000000;
+}
+
+.title-box2{
+    position: absolute;
+    width: 512px;
+    height: 149px;
+    left: 95px;
+    top: 364px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #4AE275;
+}
+
+.subtitle{
+    position: absolute;
+    width: 473px;
+    height: 70px;
+    left: 98px;
+    top: 510px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.image-box{
+    position: absolute;
+    width: 799px;
+    height: 570.71px;
+    left: 620px;
+    top: 118px;
+}
+
+.action-button{
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    left: 96px;
+    top: 585px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+    background-color: #4AE275;
+    border: none;
+    border-radius: 9px;
+}
