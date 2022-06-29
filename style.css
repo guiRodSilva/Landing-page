@@ -14,14 +14,13 @@ body{
     height: 116.38px;
     left: 75px;
     top: 46px;
-    background: url(logo.png);
 }
 
-.section1{
+.text1-nav{
     position: absolute;
     width: 386px;
     height: 41px;
-    left: 500px;
+    left: 555px;
     top: 85px;
 
     font-family: 'Inter';
@@ -33,11 +32,11 @@ body{
     color: #000000;
 }
 
-.section2{
+.text2-nav{
     position: absolute;
     width: 245px;
     height: 41px;
-    left: 920px;
+    left: 950px;
     top: 85px;
 
     font-family: 'Inter';
@@ -49,12 +48,12 @@ body{
     color: #000000;
 }
 
-.section3{
+.button-section{
     position: absolute;
     width: 170px;
-    height: 35px;
+    height: 45px;
     left: 1180px;
-    top: 80px;
+    top: 75px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -143,4 +142,14 @@ body{
     background-color: #4AE275;
     border: none;
     border-radius: 9px;
+}
+
+.div-line{    
+    position: absolute;
+    width: 1300px;
+    height: 0px;
+    left: 98px;
+    top: 728px;
+
+    border: 1px solid #000000;
 }
