@@ -1,0 +1,49 @@
+<section class="main-content-box">
+        <h1 class="title-box1"> EBOOK</h1>
+        <h1 class="title-box2">PROGRAMAÇÃO DO TOTAL ZERO</h1>
+        <h3 class="subtitle"> Aprenda a programa desde seu primeiro "hello world" até um software inteiro passo a passo</h3> 
+        <input type="button" value="ADQUIRIR JÁ" class="action-button">
+    </section>
+    <img src="Images/image1.png" alt="main-image" class="image-box">
+    <p class="div-line"></p>
+
+    <section class="content-details">
+        <h1> O que você irá aprender com o ebook?</h1>
+        <p> Com um conteúdo de qualidade e didático você aprenderá assuntos fundameis para a programação.</p>
+
+        <section class="html">
+            <h3> HTML</h3>
+            <p>Para você conseguir estruturar suas primeiras páginas web na programação</p>
+        </section>
+
+        <section class="css">
+            <h3>CSS</h3>
+            <p>Para você conseguir estilizar suas primeiras páginas no mundo da programação</p>
+        </section>
+
+        <section class="javascript">
+            <h3>JAVASCRIPT</h3>
+            <p>Para vocÊ conseguir animar suas primeiras páginas no mundo da programação</p>
+        </section>
+    </section>
+    <p class="div-line2"></p>
+
+    <section class="faq-content">
+        <h1> Perguntas frequentes (FAQ) </h1>
+        <h3> Devo pagar algo para receber o ebook?</h3>
+        <p> Não, o ebook é totalmente gratuito para todos que quiserem adquirí-lo</p>
+        <h3> O ebook é realmente vitalício?</h3>
+        <p>Sim, depois que você receber ele em seu email, ele será seu para sempre</p>
+        <h3> Demora muito para receber o email?</h3>
+        <p> Após a sua solicitação, o email será enviado em poucos instantes</p>
+        <h3> Vou aprender a criar um site igual esse?</h3>
+        <p>Com certeza, com o conteúdo do livro você vai conseguir criar isso e ir muito além</p>
+    </section>
+    <p class="div-line3"></p>
+
+    <footer>
+        <img src="images/facebook.png" alt="facebook">
+        <img src="images/insta.png" alt="instagram">
+        <img src="images/twitter.png" alt="twitter">
+        <p> Copyright - WorldTech 2022</p>
+    </footer>

@@ -3,153 +3,369 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    position: relative;
-}
-
 .logo1{
-    position: absolute;
     width: 137px;
     height: 116.38px;
-    left: 75px;
-    top: 46px;
 }
 
-.text1-nav{
-    position: absolute;
-    width: 386px;
-    height: 41px;
-    left: 555px;
-    top: 85px;
+header .container-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 96px 0 75px;
+}
 
+header nav ul{
+    display: flex;
+}
+
+header nav li{
+    list-style: none;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: black;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-
-    color: #000000;
+    padding:13px;
 }
 
-.text2-nav{
-    position: absolute;
-    width: 245px;
-    height: 41px;
-    left: 950px;
-    top: 85px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #000000;
-}
-
-.button-section{
-    position: absolute;
-    width: 170px;
-    height: 45px;
-    left: 1180px;
-    top: 75px;
-
-    font-family: 'Inter';
-    font-style: normal;
+header nav li  a.content-button{
+    background-color: #4AE275;
+    border-radius: 8px; 
+    color: white;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
-
-    background-color: #4AE275;
-    border-radius: 8px;
-    border: none;
 }
 
-.title-box1{
-    position: absolute;
-    width: 403px;
-    height: 76px;
-    left: 95px;
-    top: 299px;
+section .presentation-box{
+    display: flex;
+    padding-left: 95px;
+    padding-right: 96px;
+    padding-bottom: 20px;
 
+}
+
+section .presentation-box .main-image{
+    width: 686px;
+    height: 517.99px;
+}
+
+section .text-presentation{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
     font-family: 'Inter';
     font-style: normal;
+    padding-top: 50px;
+    
+}
+
+section .text-presentation h2{
     font-weight: 500;
     font-size: 56px;
     line-height: 68px;
-
-    color: #000000;
 }
 
-.title-box2{
-    position: absolute;
-    width: 512px;
-    height: 149px;
-    left: 95px;
-    top: 364px;
-
-    font-family: 'Inter';
-    font-style: normal;
+section .text-presentation h1{
     font-weight: 800;
     font-size: 60px;
     line-height: 73px;
-
     color: #4AE275;
 }
 
-.subtitle{
-    position: absolute;
-    width: 473px;
-    height: 70px;
-    left: 98px;
-    top: 510px;
-
-    font-family: 'Inter';
-    font-style: normal;
+section .text-presentation h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
-    color: #000000;
-
+    width: 473px;
+    height: 74px;
+    color: #474A48;
+    padding-bottom: 25px;
 }
 
-.image-box{
-    position: absolute;
-    width: 799px;
-    height: 570.71px;
-    left: 620px;
-    top: 118px;
-}
-
-.action-button{
-    position: absolute;
-    width: 230px;
-    height: 60px;
-    left: 96px;
-    top: 585px;
-
-    font-family: 'Inter';
-    font-style: normal;
+section .text-presentation a{
+    text-decoration: none;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-
     color: #FFFFFF;
-    background-color: #4AE275;
-    border: none;
+    background: #42EE73;
     border-radius: 9px;
+    padding: 15px;
 }
 
-.div-line{    
-    position: absolute;
-    width: 1300px;
-    height: 0px;
-    left: 98px;
-    top: 728px;
+main .title-box h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 46px;
+    padding-bottom: 10px;
+    color: #02D23D;
+    border-top: 1px solid #585858;
+}
 
-    border: 1px solid #000000;
+main .title-box p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+main{
+    padding-left: 95px;
+    padding-right: 96px;
+    padding-top: 55px;
+    padding-bottom: 76px;
+}
+
+main .html-box{
+    border: 3px solid #000000;
+    padding: 17px;   
+    margin-right: 16px;
+}
+
+main .css-box{
+    border: 3px solid #000000;
+    padding: 17px;   
+    margin-right: 16px;
+}
+
+main .js-box{
+    border: 3px solid #000000;
+    padding: 17px;   
+}
+
+main .content-box{
+    display: flex;
+    padding-top: 57px;
+}
+
+main .content-box .html-box h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #000000;
+}
+
+main .content-box .html-box p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+ 
+    
+    color: #000000;
+}
+
+main .content-box .css-box h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+main .content-box .css-box p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+main .content-box .js-box h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+main .content-box .js-box p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+
+section .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 45px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 118px ;
+}
+
+section.faq{
+    padding-right: 96px;
+    padding-left: 95px;
+}
+
+section.faq h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #02D23D;
+    padding-top: 46px;
+    border-top: 1px solid #000000;
+    margin: auto;
+    
+}
+
+section .first-quote h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    color: #000000;
+    
+}
+
+section .first-quote p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+    
+    
+}
+section .second-quote h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    
+    color: #000000;
+    
+}
+
+section .second-quote p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+}
+
+section .third-quote h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    
+    color: #000000;
+    
+}
+section .third-quote p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+}
+
+section .fourth-quote h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    
+    color: #000000;
+    
+}
+
+section .fourth-quote p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    
+    color: #000000;
+}
+
+section .first-quote{
+    padding-right: 30px;
+    padding-bottom: 60px;
+}
+
+section .third-quote{
+    padding-right: 30px;
+}
+
+.footer-container{
+    padding-right: 95px;
+    padding-top: 118px;
+    padding-left: 96px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img{
+    width: 78px;
+    height: 78px;
+}
+
+footer p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    
+    color: #000000;
+}
+
+footer a{
+    text-decoration: none;
+    
+}
+
+.img-instagram{
+    padding-right: 86px;
+    padding-left: 86px;
 }
