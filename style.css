@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.logo1{
+.logo{
     width: 137px;
     height: 116.38px;
 }
@@ -13,15 +13,18 @@ header .container-box{
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    padding: 20px 96px 0 75px;
+    width: 90%;
+
 }
 
 header nav ul{
     display: flex;
+
 }
 
 header nav li{
     list-style: none;
+
 }
 
 header nav li a{
@@ -33,84 +36,95 @@ header nav li a{
     font-size: 20px;
     line-height: 24px;
     padding:13px;
-}
 
-header nav li  a.content-button{
+}
+/* Button */
+header nav li  a.container-button{
     background-color: #4AE275;
     border-radius: 8px; 
     color: white;
     font-weight: 700;
     font-size: 20px;
+
 }
 
+/* All container */
 section .presentation-box{
     display: flex;
-    padding-left: 95px;
-    padding-right: 96px;
-    padding-bottom: 20px;
+    margin: auto;
+    width: 90%;
 
 }
 
 section .presentation-box .main-image{
     width: 686px;
     height: 517.99px;
+
 }
 
+/* Only text */
 section .text-presentation{
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     margin: auto;
+    flex-direction: column;
+    align-items: flex-start;
     font-family: 'Inter';
     font-style: normal;
-    padding-top: 50px;
-    
+    width: 90%;
+
 }
 
-section .text-presentation h2{
-    font-weight: 500;
-    font-size: 56px;
-    line-height: 68px;
-}
 
 section .text-presentation h1{
     font-weight: 800;
     font-size: 60px;
-    line-height: 73px;
     color: #4AE275;
+    padding: 15px 0 0 0;
+
 }
 
 section .text-presentation h3{
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    width: 473px;
-    height: 74px;
     color: #474A48;
-    padding-bottom: 25px;
+    padding: 15px 0 15px 0;
+
 }
 
+/* Button */
 section .text-presentation a{
     text-decoration: none;
     font-weight: 700;
     font-size: 30px;
-    line-height: 36px;
     color: #FFFFFF;
     background: #42EE73;
     border-radius: 9px;
     padding: 15px;
+
 }
 
+
+
+main{    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    padding-top: 55px;
+    
+}
+
+/* Only text */
 main .title-box h1{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 48px;
     padding-top: 46px;
     padding-bottom: 10px;
     color: #02D23D;
     border-top: 1px solid #585858;
+
 }
 
 main .title-box p{
@@ -118,37 +132,24 @@ main .title-box p{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
     color: #000000;
+
 }
 
-main{
-    padding-left: 95px;
-    padding-right: 96px;
-    padding-top: 55px;
-    padding-bottom: 76px;
+/* Blocks container */
+main .content-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 20px;
+    padding-top: 57px;
+    padding-bottom: 50px;
+
 }
 
 main .html-box{
     border: 3px solid #000000;
-    padding: 17px;   
-    margin-right: 16px;
-}
+    padding: 17px;  
 
-main .css-box{
-    border: 3px solid #000000;
-    padding: 17px;   
-    margin-right: 16px;
-}
-
-main .js-box{
-    border: 3px solid #000000;
-    padding: 17px;   
-}
-
-main .content-box{
-    display: flex;
-    padding-top: 57px;
 }
 
 main .content-box .html-box h2{
@@ -156,20 +157,25 @@ main .content-box .html-box h2{
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 48px;
     
     color: #000000;
+
 }
 
 main .content-box .html-box p{
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
  
-    
     color: #000000;
+
+}
+
+main .css-box{
+    border: 3px solid #000000;
+    padding: 17px;
+
 }
 
 main .content-box .css-box h2{
@@ -177,20 +183,25 @@ main .content-box .css-box h2{
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 36px;
     
     color: #000000;
+
 }
 
 main .content-box .css-box p{
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
     
     color: #000000;
+
+}
+
+main .js-box{
+    border: 3px solid #000000;
+    padding: 17px;  
+
 }
 
 main .content-box .js-box h2{
@@ -198,9 +209,9 @@ main .content-box .js-box h2{
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 36px;
     
     color: #000000;
+
 }
 
 main .content-box .js-box p{
@@ -209,22 +220,24 @@ main .content-box .js-box p{
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 36px;
     
     color: #000000;
-}
 
-section .grid-container{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding-top: 45px;
-    border-bottom: 1px solid #000000;
-    padding-bottom: 118px ;
 }
 
 section.faq{
-    padding-right: 96px;
-    padding-left: 95px;
+    width: 90%;
+    margin: auto;
+
+}
+
+section.faq .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid #000000;
+    gap: 30px 20px;
+    padding: 50px 0 50px 0;
+
 }
 
 section.faq h1{
@@ -232,13 +245,12 @@ section.faq h1{
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 48px;
     
     color: #02D23D;
     padding-top: 46px;
     border-top: 1px solid #000000;
     margin: auto;
-    
+
 }
 
 section .first-quote h3{
@@ -246,9 +258,9 @@ section .first-quote h3{
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
-    line-height: 36px;
+
     color: #000000;
-    
+
 }
 
 section .first-quote p{
@@ -256,20 +268,18 @@ section .first-quote p{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
     
     color: #000000;
-    
-    
+
 }
 section .second-quote h3{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
-    line-height: 36px;
     
     color: #000000;
+
     
 }
 
@@ -278,9 +288,9 @@ section .second-quote p{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
     
     color: #000000;
+
 }
 
 section .third-quote h3{
@@ -288,9 +298,9 @@ section .third-quote h3{
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
-    line-height: 36px;
     
     color: #000000;
+
     
 }
 section .third-quote p{
@@ -298,9 +308,9 @@ section .third-quote p{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
     
     color: #000000;
+
 }
 
 section .fourth-quote h3{
@@ -308,9 +318,9 @@ section .fourth-quote h3{
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
-    line-height: 36px;
     
     color: #000000;
+
     
 }
 
@@ -318,54 +328,50 @@ section .fourth-quote p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    
+    font-size: 20px;  
     color: #000000;
+
 }
 
-section .first-quote{
-    padding-right: 30px;
-    padding-bottom: 60px;
-}
 
-section .third-quote{
-    padding-right: 30px;
-}
 
-.footer-container{
-    padding-right: 95px;
-    padding-top: 118px;
-    padding-left: 96px;
-    
+footer .footer-container{
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column;
+    padding: 15px 0;
+
+}
+footer .footer-container .images{
+    display: flex;
+    justify-content: center;
     align-items: center;
+
 }
 
 footer img{
     width: 78px;
     height: 78px;
+
 }
 
-footer p{
+footer .footer-container a{
+    text-decoration: none;
+    padding: 50px;
+    
+}
+
+
+footer .footer-container p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 30px;
     padding-top: 75px;
     padding-bottom: 30px;
+    text-align: center;
     
     color: #000000;
-}
 
-footer a{
-    text-decoration: none;
-    
-}
-
-.img-instagram{
-    padding-right: 86px;
-    padding-left: 86px;
 }

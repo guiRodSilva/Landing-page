@@ -1,0 +1,208 @@
+@media (max-width: 1300px){
+    section .presentation-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+}
+
+    section .presentation-box .text-presentation{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        overflow-wrap: break-word;
+    }
+
+    section .presentation-box .main-image{
+        order: -1;
+    }
+
+}
+
+@media (max-width: 1024px){
+    header nav ul li a, .content-box{
+        font-size: 15px;
+    }
+    
+    section .presentation-box .text-presentation{
+        align-items: center;
+    }
+
+}
+
+@media (max-width:768px){
+    section.faq h1{
+        text-align: center;
+    }
+    main .title-box{
+        text-align: center;
+    }
+    main .content-box{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    nav{
+        display: none;
+    }
+    .one,
+    .two,
+    .three{
+        background-color: #02D23D;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.3s;
+    }
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    /* Fullscreen */
+    .menu-section.on{
+        position: absolute;
+        top:0;
+        left: 0;
+        background-color: #FFFFFF;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav{
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 40px;
+        top:40px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav ul{
+        text-align: center;
+        display: block;
+
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 18px;
+        line-height: 45px;
+        display: block;
+    }
+}
+
+@media (max-width: 425px){
+    
+    .logo{
+        width: 25%;
+        height: 25%;
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 18px;
+        line-height: 45px;
+        padding: 0;
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 15px;
+        top:25px;
+    }
+
+
+    section .presentation-box .text-presentation{
+        align-items: center;
+    }
+
+    section .presentation-box .text-presentation h1{
+        font-size: 40px;
+    }
+
+    section .presentation-box .main-image{
+        width: 99%;
+        height: 99%;
+    }
+
+    section.faq .grid-container{
+        grid-template-columns: 1fr;
+    
+    }
+
+    footer .footer-container .images a{
+        padding: 0;
+        width: 88px;
+        height: 88px;
+    }
+
+}
+
+@media (max-width: 320px){
+    
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 15px;
+        line-height: 45px;
+        padding: 0;
+        display: block;
+    }
+
+
+    section .presentation-box .text-presentation{
+        align-items: center;
+    }
+
+    
+    section .presentation-box .text-presentation h1{
+        font-size: 35px;
+    }
+    section .presentation-box .text-presentation p{
+        font-size: 20px;
+    }
+
+    section .presentation-box .main-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    main .title-box h1{
+        font-size: 35px;
+    }
+
+    main .content-box .html-box h2{
+        font-size: 30px;
+    }
+
+    main .content-box .css-box h2{
+        font-size: 30px;
+    }
+
+
+    main .content-box .js-box h2{
+        font-size: 30px;
+    }
+
+    section.faq h1{
+        font-size: 33px;
+    }
+}
