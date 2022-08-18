@@ -26,6 +26,27 @@
     section .presentation-box .text-presentation{
         align-items: center;
     }
+    .modal-login h1{
+        padding-bottom: 40px;
+        color: #02D23D;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .modal .modal-login button{
+        position: relative;
+        top: -15px;
+        left: 230px;
+        padding: 10px;
+        background-color: white;
+        border: none;
+      
+        font-size: 20px;
+    
+    }
+
+    
 
 }
 
@@ -41,9 +62,10 @@
 
     }
 
-    nav{
+    header nav a {
         display: none;
     }
+/*    
     .one,
     .two,
     .three{
@@ -60,7 +82,7 @@
         margin-right: 20px;
     }
 
-    /* Fullscreen */
+
     .menu-section.on{
         position: absolute;
         top:0;
@@ -106,7 +128,7 @@
         font-size: 18px;
         line-height: 45px;
         display: block;
-    }
+    } */
 }
 
 @media (max-width: 425px){
@@ -114,6 +136,10 @@
     .logo{
         width: 25%;
         height: 25%;
+    }
+
+    header nav li button {
+        font-size: 15px;
     }
 
     .menu-section.on nav ul a{
@@ -155,6 +181,32 @@
         height: 88px;
     }
 
+    .modal .modal-login button{
+        position: relative;
+        top: -15px;
+        left: 190px;
+        padding: 10px;
+        background-color: white;
+        border: none;
+      
+        font-size: 20px;
+    
+    }
+
+}
+
+@media (max-width: 375px){
+    .modal .modal-login button{
+        position: relative;
+        top: -15px;
+        left: 160px;
+        padding: 10px;
+        background-color: white;
+        border: none;
+      
+        font-size: 20px;
+    
+    }
 }
 
 @media (max-width: 320px){
@@ -203,5 +255,17 @@
 
     section.faq h1{
         font-size: 33px;
+    }
+
+    .modal .modal-login button{
+        position: relative;
+        top: -15px;
+        left: 140px;
+        padding: 10px;
+        background-color: white;
+        border: none;
+      
+        font-size: 20px;
+    
     }
 }
